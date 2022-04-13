@@ -96,7 +96,6 @@ body {
     display: flex;
     align-items: center;
     padding: 0 auto;
-    ;
 }
 
 .header-nav {
@@ -160,8 +159,9 @@ body {
 .hero-section {
     display: block;
     align-items: center;
-    height: 600px;
-    width: 1600px;
+    text-align: center;
+padding-top: 200px;
+padding-bottom: 200px;
     background-color: var(--background-dark-color);
     margin: 0 auto;
 
@@ -169,15 +169,14 @@ body {
 
 .hero-container {
     display: block;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    width: 696px;
     text-align: center;
 }
 
 .hero-title {
     display: inline-block;
     width: 696px;
-    height: 120px;
+    margin-bottom:30px ;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -188,15 +187,12 @@ body {
 }
 
 .hero-button {
-    display: block;
+    display: inline-block;
     border-radius: 4px;
-    height: 50px;
-    width: 200px;
+    padding: 10px 32px;
+    min-width: 200px;
     align-items: center;
-    text-align: center;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
+   
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -208,7 +204,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: var(--accent-secondary-color);
+    background-color: var(--accent-color);
 }
 
 /* Переваги */
@@ -357,9 +353,10 @@ body {
     display: block;
     padding-top: 60px;
     padding-bottom: 60 px;
+    }
     /* padding-left: 0;
   padding-right: auto; */
-}
+
 
 .footer-logo {
     display: block;
