@@ -347,13 +347,15 @@ padding-bottom: 200px;
 /* Адреси */
 .footer-section {
     background-color: var(--background-dark-color);
-}
-
-.footer-section .container {
-    display: block;
     padding-top: 60px;
     padding-bottom: 60 px;
+    
     }
+
+
+ .container {
+    display: block;
+} 
     /* padding-left: 0;
   padding-right: auto; */
 
