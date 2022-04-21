@@ -402,10 +402,16 @@ padding-bottom: 200px;
     display: flex;
     margin-bottom: 50px;
 }
+.buttons-item:not(:last-child){
+margin-right: 8px;
+}
+
+    
+
 
 .filter-button {
     display: block;
-margin-right: 8px;
+   margin-right: 8px;
     padding: 6px 22px;
     font-family: inherit;
     font-weight: 500;
@@ -444,6 +450,7 @@ margin-right: 8px;
 }
 
 .project-text {
+    margin-bottom: 50px;
     display: block;
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
@@ -458,7 +465,7 @@ margin-right: 8px;
 }
 
 .project-name {
-    margin: 4px;
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -467,7 +474,6 @@ margin-right: 8px;
 }
 
 .project-type {
-
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
